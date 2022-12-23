@@ -23,7 +23,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='urlprofile',
             name='enabled',
-            field=models.NullBooleanField(default=True),
+            field=models.BooleanField(default=True, null=True),
         ),
         migrations.AlterField(
             model_name='urlprofile',
